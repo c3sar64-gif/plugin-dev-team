@@ -26,7 +26,7 @@ Hoy el equipo tiene una sola skill (`fullstack-dotnet-nextjs`, escrita por el ma
 | 5 | Primera versión | Núcleo más flujo guiado. |
 | 6 | Relación con ECC | Se copia y adapta solo lo útil (ECC 2.2.3, licencia MIT). ECC no es dependencia. |
 | 7 | Skill del master | Es la base de las skills de convenciones, corregida. Se retira de los proyectos al adoptar el plugin. |
-| 8 | Alojamiento | Repositorio privado en GitHub, propio del plugin. |
+| 8 | Alojamiento | Repositorio propio en GitHub: `c3sar64-gif/plugin-dev-team`. El proyecto Molino Rolón va en otro repositorio. |
 | 9 | Idioma | Todo en español. Nombres de código en español del dominio, sin tildes. |
 
 ## 3. Capas y precedencia
@@ -203,7 +203,7 @@ El repositorio es su propio marketplace. Cada proyecto versiona un `.claude/sett
 {
   "extraKnownMarketplaces": {
     "ar-dev-team": {
-      "source": { "source": "github", "repo": "<cuenta>/ar-dev-team" }
+      "source": { "source": "github", "repo": "c3sar64-gif/plugin-dev-team" }
     }
   },
   "enabledPlugins": {
@@ -212,7 +212,9 @@ El repositorio es su propio marketplace. Cada proyecto versiona un `.claude/sett
 }
 ```
 
-Al abrir el proyecto, Claude Code propone instalar el plugin. Como el repositorio es privado, cada desarrollador necesita acceso de lectura en GitHub.
+El repositorio se llama `plugin-dev-team`; el plugin y su marketplace se identifican como `ar-dev-team`. Son nombres independientes.
+
+Al abrir el proyecto, Claude Code propone instalar el plugin. Si el repositorio es privado, cada desarrollador necesita acceso de lectura en GitHub.
 
 **Versiones:** semver, con Conventional Commits.
 
@@ -271,8 +273,7 @@ La lista exacta de lo que se mueve se le muestra al usuario antes de editar. Nin
 
 | # | Punto | Bloquea |
 |---|---|---|
-| 1 | Cuenta u organización de GitHub y nombre del repositorio del plugin | Etapa 1 (publicar) |
-| 2 | Quién aprueba los cambios al plugin | Etapa 1 (publicar) |
-| 3 | Gestor de paquetes del frontend. La skill del master usa pnpm | Etapa 5 (`verificacion`) |
-| 4 | Si habrá pruebas de frontend y con qué herramienta | Nada de la primera versión |
-| 5 | Convivencia con otros plugins (ECC, superpowers) en las máquinas del equipo: duplican agentes y flujos. Propuesta: el README recomienda no activarlos en proyectos que usan AR-DEV-TEAM | Etapa 7 |
+| 1 | Quién aprueba los cambios al plugin | Etapa 1 (publicar) |
+| 2 | Gestor de paquetes del frontend. La skill del master usa pnpm | Etapa 5 (`verificacion`) |
+| 3 | Si habrá pruebas de frontend y con qué herramienta | Nada de la primera versión |
+| 4 | Convivencia con otros plugins (ECC, superpowers) en las máquinas del equipo: duplican agentes y flujos. Propuesta: el README recomienda no activarlos en proyectos que usan AR-DEV-TEAM | Etapa 7 |
