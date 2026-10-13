@@ -4,3 +4,4 @@
 
 - Esqueleto del plugin y del marketplace.
 - Skill convenciones-backend.
+- Skill convenciones-frontend.
