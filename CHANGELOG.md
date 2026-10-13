@@ -6,3 +6,4 @@
 - Skill convenciones-backend.
 - Skill convenciones-frontend.
 - Skill migraciones-sql.
+- Skill commits.

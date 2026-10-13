@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url';
 
 const RAIZ = join(dirname(fileURLToPath(import.meta.url)), '..', '..');
 const SKILLS = join(RAIZ, 'skills');
-const ESPERADAS = ['convenciones-backend', 'convenciones-frontend', 'migraciones-sql'];
+const ESPERADAS = ['convenciones-backend', 'convenciones-frontend', 'migraciones-sql', 'commits'];
 const MAX_LINEAS = 150;
 const PROHIBIDO = /next\.js|NEXT_PUBLIC|supabase|minimal api|prisma|drizzle|kysely|django|golang-migrate|server components?|componentes? de servidor/i;
 
