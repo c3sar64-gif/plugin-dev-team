@@ -1,5 +1,6 @@
 {
   "name": "ar-dev-team",
+  "description": "Plugins del equipo AR-DEV-TEAM.",
   "owner": { "name": "AR-DEV-TEAM" },
   "plugins": [
     {
