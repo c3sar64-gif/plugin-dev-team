@@ -52,6 +52,7 @@ El `CLAUDE.md` y los `docs/` del proyecto mandan sobre las skills: ahí están l
 ### Importante
 
 - **CORS abierto:** cualquier origen junto con credenciales.
+- **Una respuesta que devuelve la entidad completa** en vez de un DTO: expone columnas que el usuario no debería ver.
 - **Errores que filtran detalles:** una traza o un mensaje interno en la respuesta, en vez de ProblemDetails.
 - **Datos sensibles en el log:** tokens, contraseñas, claves de API.
 - **Mensajes distintos** para «usuario no existe» y «clave incorrecta».

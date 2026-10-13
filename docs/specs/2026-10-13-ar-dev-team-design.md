@@ -277,3 +277,13 @@ La lista exacta de lo que se mueve se le muestra al usuario antes de editar. Nin
 | 2 | Gestor de paquetes del frontend. La skill del master usa pnpm | Etapa 5 (`verificacion`) |
 | 3 | Si habrá pruebas de frontend y con qué herramienta | Nada de la primera versión |
 | 4 | Convivencia con otros plugins (ECC, superpowers) en las máquinas del equipo: duplican agentes y flujos. Propuesta: el README recomienda no activarlos en proyectos que usan AR-DEV-TEAM | Etapa 7 |
+
+## 17. Cambios en la versión 0.2.0
+
+| Cambio | Motivo |
+|---|---|
+| La skill `verificacion` se llama `verificar` | Es a la vez la regla y el comando |
+| Se agregan las skills `revisar`, `nueva-migracion` y `commit` | Son los comandos del flujo, además de `nueva-funcionalidad` |
+| `commit` contiene solo el procedimiento; las reglas siguen en `commits` | Cada regla vive en un solo archivo |
+| Los agentes declaran sus skills en el encabezado y además llevan la instrucción de cargarlas | La instrucción es el respaldo si el encabezado no las precarga |
+| El `settings.json` de cada proyecto lleva además un permiso de lectura sobre la carpeta instalada del plugin | Sin él, Claude Code pide permiso cada vez que una skill o un agente abre una referencia, porque el plugin vive fuera del proyecto. Comprobado en una sesión real |

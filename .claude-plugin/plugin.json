@@ -1,7 +1,7 @@
 {
   "name": "ar-dev-team",
-  "version": "0.1.0",
-  "description": "Estándar del equipo AR-DEV-TEAM: convenciones y hooks de bloqueo para ASP.NET Core en Onion con DDD, PostgreSQL y React + Vite.",
+  "version": "0.2.0",
+  "description": "Estándar del equipo AR-DEV-TEAM: convenciones, hooks de bloqueo, agentes revisores y flujo guiado para ASP.NET Core en Onion con DDD, PostgreSQL y React + Vite.",
   "author": { "name": "AR-DEV-TEAM" },
   "repository": "https://github.com/c3sar64-gif/plugin-dev-team",
   "keywords": ["dotnet", "onion", "ddd", "react", "vite", "postgresql", "convenciones"]

@@ -6,7 +6,7 @@
     {
       "name": "ar-dev-team",
       "source": "./",
-      "description": "Estándar del equipo AR-DEV-TEAM: convenciones y hooks de bloqueo para ASP.NET Core en Onion con DDD, PostgreSQL y React + Vite."
+      "description": "Estándar del equipo AR-DEV-TEAM: convenciones, hooks de bloqueo, agentes revisores y flujo guiado para ASP.NET Core en Onion con DDD, PostgreSQL y React + Vite."
     }
   ]
 }
