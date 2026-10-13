@@ -1,0 +1,11 @@
+{
+  "name": "ar-dev-team",
+  "owner": { "name": "AR-DEV-TEAM" },
+  "plugins": [
+    {
+      "name": "ar-dev-team",
+      "source": "./",
+      "description": "Estándar del equipo AR-DEV-TEAM: convenciones y hooks de bloqueo para ASP.NET Core en Onion con DDD, PostgreSQL y React + Vite."
+    }
+  ]
+}
