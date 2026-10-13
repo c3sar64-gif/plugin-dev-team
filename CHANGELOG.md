@@ -7,3 +7,5 @@
 - Skill convenciones-frontend.
 - Skill migraciones-sql.
 - Skill commits.
+- Nueve hooks: seis que bloquean y tres que avisan.
+- Pruebas automáticas en GitHub Actions para Linux y Windows.

@@ -1,0 +1,17 @@
+{
+  "description": "AR-DEV-TEAM: bloquea o avisa ante las infracciones innegociables antes de escribirlas",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit|MultiEdit|Bash|PowerShell",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/despachador.mjs\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
